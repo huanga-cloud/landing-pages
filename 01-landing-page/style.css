@@ -5,22 +5,30 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header {
-    background-color: rgb(38, 55, 100);
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 220px;
-    font-weight: bold;
-    font-size: 30px;
-}
-
 a {
     text-decoration: none;
     color: white;
 }
 
-.header-links {
+/* p {
+    margin-bottom: 10px;
+} */
+
+.header {
+    background-color: rgb(38, 55, 100);
+    color: white;
+    padding: 20px 220px;
+    
+}
+
+.header .top {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.header .top .links {
     list-style-type: none;
     display: flex;
     gap: 16px;
@@ -30,3 +38,19 @@ a {
     font-size: 15px;
 }
 
+.header .bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.header .bottom .left {
+    flex-basis: 400px;
+}
