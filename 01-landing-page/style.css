@@ -75,8 +75,36 @@ button {
     
 }
 
+.quote {
+    display: flex;
+    background-color: lightgrey;
+    flex-direction: column;
+    padding: 100px;
+}
 
 
+.ad {
+    display: flex;
+    background-color: royalblue;
+    color: white;
+    margin: 80px 150px;
+    padding: 20px 60px;
+    justify-content: space-between;
+}
+
+.ad .text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ad .subtext {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.ad button {
+    border-color: white;
+}
 
 .footer {
     display: flex;
